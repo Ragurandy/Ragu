@@ -13,7 +13,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestNg {
 	@Test
-	private void Test1() throws InterruptedException {
+	public void Test1() throws InterruptedException {
 
 
 WebDriverManager.chromedriver().setup();
